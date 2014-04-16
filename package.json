@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chaddm/kcnode-distributed-key-store/issues"
   },
-  "homepage": "https://github.com/chaddm/kcnode-distributed-key-store"
+  "homepage": "https://github.com/chaddm/kcnode-distributed-key-store",
+  "dependencies": {
+    "express.io": "~1.1.13"
+  }
 }
