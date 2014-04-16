@@ -36,6 +36,12 @@ bower:
       src: ["socket.io*.js"]
       dest: <%= copy.bower.options.scriptsDest %>/
     -
+      src: bower_components/jsonpatch/jsonpatch.min.js
+      dest: <%= copy.bower.options.scriptsDest %>/jsonpatch.min.js
+    -
+      src: bower_components/jsonpatch/lib/jsonpatch.js
+      dest: <%= copy.bower.options.scriptsDest %>/jsonpatch.js
+    -
       src: bower_components/imagesLoaded/index.js
       dest: <%= copy.bower.options.scriptsDest %>/imagesLoaded.pkgd.js
     -
