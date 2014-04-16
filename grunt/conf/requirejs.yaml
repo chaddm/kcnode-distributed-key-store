@@ -1,0 +1,40 @@
+options:
+  paths:
+    youtube: "//www.youtube.com/iframe_api?noext"
+    modernizr: vendor/modernizr-2.6.2.min
+    underscore: vendor/lodash.underscore.min
+    underscore.string: "vendor/underscore.string.min"
+    jade: vendor/jade.runtime
+    domReady: "vendor/requirejs-domready"
+    es5: "vendor/es5-shim.min"
+    json3: "vendor/json3.min"
+    q: "vendor/q"
+    jquery: "vendor/jquery.min"
+    jquerymigrate: "vendor/jquery-migrate-1.1.1.min"
+    jquery.transit: "vendor/jquery.transit.min"
+    dragdealer: "vendor/dragdealer"
+    backbone: "vendor/backbone"
+    screenfull: "vendor/screenfull.min"
+  enforceDefine: true
+  name: main
+  insertRequire: ['main']
+  baseUrl: "<%= paths.build %>/scripts/"
+  optimize: uglify2
+  shim:
+    youtube:
+      exports: YT
+    modernizr:
+      exports: Modernizr
+    jquerymigrate:
+      deps: ["jquery"]
+      exports: jQuery
+    jquery.transit:
+      deps: ["jquerymigrate"]
+      exports: jQuery
+    screenfull:
+      exports: screenfull
+
+main:
+  options:
+    include: ['vendor/require']
+    out: <%= paths.build %>/scripts/main.pkgd.js

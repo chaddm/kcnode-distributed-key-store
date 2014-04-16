@@ -1,0 +1,13 @@
++includeJSON('data')#app-data
+
+script#paths(type="text/json")
+  != JSON.stringify(grunt.config('paths'))
+
+
+script.
+  window.build = '#{build}';
+
+- if( build === 'dev')
+  +projectScript('vendor/require.js')(data-main!=projectScriptUrl('main'))
+- else if( build === 'prod')
+  +projectScript('main.pkgd.js')

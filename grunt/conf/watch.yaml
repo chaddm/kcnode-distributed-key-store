@@ -1,0 +1,33 @@
+options:
+  forever: false
+livereload:
+  files:
+    - "<%= paths.htdocs %>/**/*"
+  options: 
+    livereload: "<%= liveReloadPort %>"
+
+styles:
+  files:
+    - "<%= paths.src %>/styles/**/*"
+  tasks:
+    - styles
+
+scripts:
+  files:
+    - "<%= paths.src %>/scripts/**/*"
+  tasks:
+    - scripts
+
+markup:
+  files:
+    - "<%= paths.src %>/markup/**/*"
+  tasks:
+    - markup
+
+gitBranchChange:
+  options:
+    nospawn: true
+  files:
+    - "../.git/hooks/post-checkout"
+  tasks:
+    - "git:checkout"

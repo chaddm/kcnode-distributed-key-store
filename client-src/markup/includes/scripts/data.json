@@ -1,0 +1,107 @@
+{
+  "needStates": {
+    "energy": {
+      "stops": ["bicep", "liver"],
+      "locale": {
+        "en": {
+          "needState": "Energy"
+        }
+      }
+    },
+    "hydration": {
+      "stops": ["sweat", "heart", "intestine", "calf"],
+      "locale": {
+        "en": {
+          "needState": "Hydration"
+        }
+      }
+    },
+    "recovery": {
+      "stops": ["quad"],
+      "locale": {
+        "en": {
+          "needState": "Recovery"
+        }
+      }
+    }
+  },
+  "stops": {
+    "bicep": {
+      "needState": "energy",
+      "locale": {
+        "en": {
+          "stop": "Bicep",
+          "needState": "Energy",
+          "description": "Will work for food.",
+          "video": "http://cdn.gatorade.com/stg/gcom/assets/science-of-g/stop1-video-bicep-desktop.mp4"
+        }
+      }
+    },
+    "liver": {
+      "needState": "energy",
+      "locale": {
+        "en": {
+          "stop": "Liver",
+          "needState": "Energy",
+          "description": "Failure is not an option.",
+          "video": "http://cdn.gatorade.com/stg/gcom/assets/science-of-g/stop2-video-liver-desktop.mp4"
+        }
+      }
+    },
+    "sweat": {
+      "needState": "hydration",
+      "locale": {
+        "en": {
+          "stop": "Sweat",
+          "needState": "Hydration",
+          "description": "What you lose and why it matters.",
+          "video": "http://cdn.gatorade.com/stg/gcom/assets/science-of-g/stop3-video-sweat-desktop.mp4"
+        }
+      }
+    },
+    "heart": {
+      "needState": "hydration",
+      "locale": {
+        "en": {
+          "stop": "Heart",
+          "needState": "Hydration",
+          "description": "The hardest working muscle hard at work.",
+          "video": "http://cdn.gatorade.com/stg/gcom/assets/science-of-g/stop4-video-heart-desktop.mp4"
+        }
+      }
+    },
+    "intestine": {
+      "needState": "hydration",
+      "locale": {
+        "en": {
+          "stop": "Intestine",
+          "needState": "Hydration",
+          "description": "It&rsquo;s more important than you think.",
+          "video": "http://cdn.gatorade.com/stg/gcom/assets/science-of-g/stop5-video-intestine-desktop.mp4"
+        }
+      }
+    },
+    "calf": {
+      "needState": "hydration",
+      "locale": {
+        "en": {
+          "stop": "Calf",
+          "needState": "Hydration",
+          "description": "How muscles fire and what keeps them burning.",
+          "video": "http://cdn.gatorade.com/stg/gcom/assets/science-of-g/stop6-video-calf-desktop.mp4"
+        }
+      }
+    },
+    "quad": {
+      "needState": "recovery",
+      "locale": {
+        "en": {
+          "stop": "Quad",
+          "needState": "Recovery",
+          "description": "The everyday comeback story of recovery.",
+          "video": "http://cdn.gatorade.com/stg/gcom/assets/science-of-g/stop7-video-quad-desktop.mp4"
+        }
+      }
+    }
+  }
+}
