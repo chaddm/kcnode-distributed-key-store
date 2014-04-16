@@ -1,0 +1,19 @@
+{
+  "name": "kcnode",
+  "version": "0.0.0",
+  "description": "We like node!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chaddm/kcnode-distributed-key-store.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaddm/kcnode-distributed-key-store/issues"
+  },
+  "homepage": "https://github.com/chaddm/kcnode-distributed-key-store"
+}
