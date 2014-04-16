@@ -18,7 +18,6 @@
     "tests"
   ],
   "dependencies": {
-    "socket.io": "~0.9.15",
     "socket.io-client": "~0.9.16"
   }
 }
