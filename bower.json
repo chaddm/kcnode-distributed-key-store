@@ -1,0 +1,24 @@
+{
+  "name": "kcnode-distributed-key-store",
+  "version": "0.0.0",
+  "homepage": "https://github.com/chaddm/kcnode-distributed-key-store",
+  "authors": [
+    "Shane Daniel",
+    "Chad Dumler-Montplaisir",
+    "Jordan Van Winkle"
+  ],
+  "description": "nodekc meetup",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io": "~0.9.15",
+    "socket.io-client": "~0.9.16"
+  }
+}
